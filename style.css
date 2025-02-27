@@ -1,0 +1,102 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.aman p{
+    text-align: center;
+    padding-top: 40px;
+}
+.aman h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    margin: 20px;
+    margin-left: 100px;
+    color: black;
+
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(0, 252, 88);
+
+    border: 1px solid rgba(236, 139, 139, 0.18);
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0px 0px 30px rgba(236, 139, 139, 0.18);
+}
+
+.container-fluid {
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(95, 111, 250, 0.18);
+    border: 2px solid rgba(236, 139, 139, 0.18);
+    background-color: antiquewhite;
+}
+
+.navbar-brand img {
+    border-radius: 20px 20px 20px 20px;
+}
+
+.front {
+    position: relative;
+    overflow: hidden;
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/021/693/956/small/pastel-mesh-gradient-background-abstract-blurred-wallpaper-texture-png.png) #fff;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+}
+.item img{
+border-bottom-left-radius: 40px;
+    width: 1000px;
+    height: 400px;
+    /* margin-left: 80px; */
+}
+.this{
+    margin-top: 30px;
+    font-weight: 400;
+   
+}
+
+.button {
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    box-shadow: 0 0 4px;
+   
+}
+
+.button:hover {
+    color: #030303;
+    background-color: yellow;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 9px;
+}
+.header-heading p{
+  padding-bottom: 50px;
+}
+.carddd{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-regular{
+  
+    margin-left: 30px;
+}
+.newww p{
+padding-top: 20px;
+}
+.newww h2{
+    padding-bottom: 20px;
+}
+.new-part{
+    display: flex;
+    justify-content: space-between;
+}
