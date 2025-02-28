@@ -22,7 +22,7 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: rgb(0, 252, 88);
+    color: rgb(252, 0, 71);
 
     border: 1px solid rgba(236, 139, 139, 0.18);
     border-radius: 5px 0px 0px 5px;
@@ -33,24 +33,29 @@
     backdrop-filter: blur(30px);
     box-shadow: 0px 0px 30px rgba(95, 111, 250, 0.18);
     border: 2px solid rgba(236, 139, 139, 0.18);
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
 }
 
 .navbar-brand img {
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 2px 0px 8px;
+    /* box-shadow: 2px 0px 8px; */
 }
 
 .front {
     position: relative;
     overflow: hidden;
-    background: url(https://static.vecteezy.com/system/resources/thumbnails/021/693/956/small/pastel-mesh-gradient-background-abstract-blurred-wallpaper-texture-png.png) #fff;
+    /* background: url(https://static.vecteezy.com/system/resources/thumbnails/021/693/956/small/pastel-mesh-gradient-background-abstract-blurred-wallpaper-texture-png.png) #fff; */
     padding-top: 50px;
     padding-bottom: 70px;
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
     height: 100vh;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .item img{
 border-bottom-left-radius: 40px;
@@ -117,18 +122,19 @@ padding-top: 20px;
   margin-bottom: 50px;
     box-shadow: 2px 0px 8px;
 }
-.card-img-top{
+.cardee img{
     box-shadow: 2px 0px 8px;
     
 }
+
 .box{
     border: #030303;
 }
 
 
-@media only screen and (max-width: 993px) {
-    .new-part{
-       flex-wrap: wrap;
+@media only screen and (max-width: 333px) {
+    .FLex-slide  {
+   display: block;
     }
 }
 @media only screen and (max-width:992px){
@@ -269,4 +275,67 @@ margin-top: 50px;
 }
 .khushi{
 background-color: #172b43;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider{
+    justify-content: space-between;
+  }
+.carde img{
+    width: 60px;
+    padding: 2px 2px 2px 2px;
+    background: rgb(145,0,64);
+
+  
+}
+.carde{
+    background: rgb(145,0,64);
+background: linear-gradient(90deg, rgba(145,0,64,0.9754026610644257) 0%, rgba(43,6,27,0.9698004201680672) 100%);
+}
+.carde:hover{
+  transform: scale(0.9);
+  color: #fff;
+
+}
+.card img{
+    padding: 8px 8px 8px 8px;
+                                                                                                         
+}
+.card:hover{
+    transform: scale(0.8);
+}
+.card{
+    margin-left: 50px;
+    transition: 0.5s linear;
+}
+.cardee{
+    border-radius: 200px;
+}
+.newww p{
+    margin-left: 55px;
+}
+.newww h2{
+margin-left: 55px;
 }
